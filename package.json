@@ -1,0 +1,45 @@
+{
+  "name": "a-b-testing-library",
+  "version": "1.0.0",
+  "description": "A/B testing library for React (early work in progress)",
+  "homepage": "https://github.com/LukasKnize/A-B-testing-library#readme",
+  "bugs": {
+    "url": "https://github.com/LukasKnize/A-B-testing-library/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LukasKnize/A-B-testing-library.git"
+  },
+  "license": "MIT",
+  "author": "Lukáš Kníže",
+  "type": "module",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "npm run type-check && vite build",
+    "lint": "eslint . --max-warnings=0",
+    "type-check": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@types/react": "^19.0.0"
+  },
+  "peerDependencies": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.39.2",
+    "@testing-library/react": "^16.3.2",
+    "@types/node": "^25.2.3",
+    "@vitejs/plugin-react": "^5.1.3",
+    "eslint": "^9.39.2",
+    "eslint-plugin-react": "^7.37.5",
+    "eslint-plugin-react-hooks": "^7.0.1",
+    "jsdom": "^28.0.0",
+    "prettier": "^3.8.1",
+    "typescript": "^5.9.3",
+    "typescript-eslint": "^8.54.0",
+    "vite": "^7.3.1",
+    "vite-plugin-dts": "^4.5.4",
+    "vitest": "^4.0.18"
+  }
+}
